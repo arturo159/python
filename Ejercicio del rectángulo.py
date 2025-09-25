@@ -1,0 +1,6 @@
+base=input("Dime cuanto mide la base del rectángulo para que calcule su área y su perímetro: ")
+altura=input("Dime cuanto mide la altura del rectángulo para que calcule su área y su perímetro: ")
+area=int(base)*int(altura)
+perimetro=2*(int(base)+int(altura))
+print(area)
+print(perimetro)
