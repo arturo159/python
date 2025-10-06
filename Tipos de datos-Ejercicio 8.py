@@ -1,0 +1,5 @@
+n1=input("Dame un número entero: ")
+n2=input("Dame otro número entero: ")
+coeficiente=int(n1)/int(n2)
+resto=int(n1)%int(n2)
+print(n1, "entre ", n2, "da un cociente ", coeficiente, "y un resto", resto)
