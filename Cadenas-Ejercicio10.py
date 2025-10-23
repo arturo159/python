@@ -1,0 +1,5 @@
+productos=input("Dime los productos de la compra que llevas en la cesta (separalos por comas porfa): ")
+#Versión para hacer que se supriman los espacios en la lista (para los quisquillosos vamos)
+#listaProductos="\n".join(productos.replace(", ", ",")split(","))
+listaProductos="\n".join(productos.split(","))
+print("Tu cesta de la compra contiene: \n" + listaProductos)
