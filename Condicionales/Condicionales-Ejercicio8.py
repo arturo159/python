@@ -1,5 +1,5 @@
-puntuacion = float(input("Dime la puntuación del empleado: "))
-cantDinero = 2400
+puntuacion=float(input("Dime la puntuación del empleado: "))
+cantDinero=2400
 if puntuacion == 0:
     print ("El nivel de rendimiento de este empleado es Inaceptable")
     print ("Y este empleado recibirá", cantDinero, "euros")
