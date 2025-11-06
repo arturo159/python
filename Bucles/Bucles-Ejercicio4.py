@@ -1,5 +1,5 @@
 n=int(input("Dime un número entero positivo:  "))
-h=1
+h=0
 while h < n:
-    print (h, end=",")
-    h=h+2
+    print (n, end=", ")
+    n=n-1
