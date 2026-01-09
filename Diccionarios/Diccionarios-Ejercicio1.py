@@ -1,4 +1,9 @@
-dic = {'Euro':'€', 'Dollar':'$', 'Yen':'¥'}
+dic = {
+    'Euro':'€', 
+    'Dollar':'$', 
+    'Yen':'¥'
+    }
+
 divisa = input("Dime cual es la divisa: ")
 if divisa in dic:
     print (dic[divisa])
