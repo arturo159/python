@@ -1,3 +1,3 @@
-list = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
-for i in list:
+lista = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
+for i in lista:
     print(i, end=" ")
